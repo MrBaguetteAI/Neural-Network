@@ -33,8 +33,8 @@ class Neuron:
 
 
 
-inputs = [1.0, 2.0, 3.0]
-weights = [0.5, -0.5, 0.3]
+inputs = [1.0, 0.0]
+weights = [0.5, -0.5]
 neuron = Neuron(weights, inputs)
 
 # Forward pass
